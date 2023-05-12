@@ -8,6 +8,7 @@ function display(event)
 		let d=document.querySelector(".path");
 		d.textContent+=input_image.src;		
 	}
+	
 
 //Mostrar a que animal(clase) pertenece la imagen subida
 // https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/async_function
