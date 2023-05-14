@@ -23,7 +23,7 @@
 	</div>
 	
 	<div id="container-input">
-        <img src="./FFF.svg" id="input_image" width="700" height="700">
+        <img src="./FFF.svg" id="input_image" width="650" height="650">
     </div>
     <!-- Creación botones para subir y predicción-->    
     <div id="container-button">
@@ -34,6 +34,11 @@
 		</div>
 		
 		<table>
+			<td>
+				<div>	            
+					<input type="file" name="fileupload" accept="image/*" onchange="display(event)" class="custom-file-upload" value="Subir Archivo">
+				</div>
+			</td>
 			<td>
 				<div>			
 					<input type="button" name="predict" onclick="predict_animal()" value="Iniciar predicción">
@@ -52,9 +57,7 @@
 
    <!-- Despliegue de clases y salida detectada-->   
     <div id="container-output">
-		<div>	            
-			<input type="file" name="fileupload" accept="image/*" onchange="display(event)" class="custom-file-upload">
-		</div>	
+			
 		
 		
 	</div>
